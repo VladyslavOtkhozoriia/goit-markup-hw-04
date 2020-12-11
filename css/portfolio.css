@@ -38,6 +38,7 @@ display: block;
 --btn-color: #2196F3;
 --footer-adress-color:rgba(255, 255, 255, 0.6);
 --svg-state-color: #AFB1B8;
+--li-border-color:#EEEEEE;
 }
   
   /*! LOGO */
@@ -261,6 +262,7 @@ padding-bottom: 94px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+/* outline: 2px solid darkgreen; */
 }
 
 .web-sites_list_item:nth-child(-n + 6) {
@@ -276,40 +278,40 @@ padding-bottom: 20px;
 min-width: 370px;
 
 background: var(--white-color);
-border: 1px solid var(--white-color);
+border: 1px solid var(--li-border-color);
 justify-content: center;
- /* outline: 1px solid red; */
+/* outline: 1px solid red; */
 }
 
 
 .web-sites_list_link{
-  text-decoration: none;
+text-decoration: none;
+display: block;
 }
 
-.web-sites_list_item:hover,
-.web-sites_list_item:focus{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-  1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
+
+.web-sites_list_link:hover,
+.web-sites_list_link:focus{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 
 .web-sites_undertitle{
-/* max-width: 322px;
 margin: auto;
 margin-bottom: 4px;
-! outline: 1px solid green; */
+
 padding-top: 20px;
 padding-left: 20px;
 padding-bottom: 4px;
+/* outline: 2px solid blue; */
 }
 
 .web-sites_text {
-/* max-width: 322px;
-margin: auto;
-! outline: 1px solid blue; */
 padding-left: 20px;
 padding-bottom: 20px;
+/* outline: 2px solid yellow; */
 }
 
 
